@@ -3,6 +3,8 @@ This is a C++ VS-2022 build console app, using SFML 2.6.0 x64, to randomly creat
 
 Animation has been added to the solution part for understanding/looking at how the algorithms behave/work.
 
+MAZE's window IS RESIZABLE at runtime
+
 The app is based on the SFML library (Safe & Fast Multimedia Library) for creating and managing the maze's terrain window and basics. The maze can be selectably solved either with the BFS algoritm or with the A* algorithm (Alt-S, or Ctrl-S).
 The app's keys' & mouse functionality are displayed in app's console when application starts. Can be re-displayed at any time by jsut pressing 'H'.
 
