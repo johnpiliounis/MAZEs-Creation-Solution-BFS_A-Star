@@ -1,7 +1,7 @@
 # MAZEs Creation & Solutions with BFS and A* algorithms
 This is a C++ VS-2022 build console app, using SFML 2.6.0 x64, to randomly create and solve mazes using either BFS or A* algorithms.
 
-Animation has been added to the solution part for understanding/looking at how the algorithms behave/work.
+Animation has been added to the solution part for understanding/looking at how the algorithms behaves/works.
 
 MAZE's window IS RESIZABLE at runtime
 
