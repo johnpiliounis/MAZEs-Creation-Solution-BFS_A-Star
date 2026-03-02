@@ -8,7 +8,7 @@ MAZE's window IS RESIZABLE at runtime
 The app is based on the SFML library (Safe & Fast Multimedia Library) for creating and managing the maze's terrain window and basics. The maze can be selectably solved either with the BFS algoritm or with the A* algorithm (Alt-S, or Ctrl-S).
 The app's keys' & mouse functionality are displayed in app's console when application starts. Can be re-displayed at any time by jsut pressing 'H'.
 
-A new random maze is displayed in MAZE-Windo the moment application starts or can be randomly generated at any time by simply pressing 'G'.
+A new random maze is displayed in MAZE-Window the moment application starts or can be randomly generated at any time by simply pressing 'G'.
 In any maze, a RED - Entrance and GREEN - Exit blocks are randomly placed at the rim of the square maze. Any block of the maze, including RED & GREEN can be changed at will, 
 R -> B or W, 
 G -> B or W, 
