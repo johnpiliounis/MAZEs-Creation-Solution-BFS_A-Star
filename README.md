@@ -27,10 +27,12 @@ At any time by pressing Alt-C only the solution's path is cleaned from maze's wi
 By pressing 'Esc' or by clicking on the window's "X" we terminate application.
 
 
-Importand Note:
-
+Importand Notes:
+A)
 In Project's properties we need to include in the C++ 'General' tab, in "Additional Include" dir, the "c:\SFML_version\include" , and in Linker's Additional Libraries Directory tab the "c:\SFML_version\lib". Also in Linker's Input/Additional Dependencies Libs we need to add the names sfml-graphics.lib;sfml-window.lib;sfml-system.lib, for the release x64 version compilation. Else, others relevant to your compilation, offered/found in the lib dir.
 
+B) 
+In the runtime dir, for Release/x64 compilation, the three dlls sfml-graphics-2.dll, sfml-system-2.dll, sfml-window-2.dll need to be pesent, taken from the bin directory of the SFML installation. Else, others relevant to your compilation, offered/found in the bin dir.
 
 Minor pending additions:
 
