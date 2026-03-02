@@ -5,7 +5,7 @@ SFML: https://www.sfml-dev.org/download/
 
 Animation waves have been added at solution time for better understanding how the algorithms behave & work.
 
-MAZE's window IS RESIZABLE at runtime
+MAZE's window IS RESIZABLE at any time
 
 ***************************************************************
 
