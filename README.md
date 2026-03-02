@@ -13,9 +13,9 @@ The app is based on the SFML library (Safe & Fast Multimedia Library) for creati
 
 The solution is displayed as a BLUE-BLOCKS path while the animated solution's wave in light blue.
 
-The app's keys' & mouse functionality are displayed in app's console when application starts. Can be re-displayed at any time by jsut pressing 'H'.
+The app's keys' & mouse functionality are displayed in app's console when application starts. Can be re-displayed at any time by just pressing 'H'.
 
-A new random maze is displayed in MAZE-Window the moment application starts or can be randomly generated at any time by simply pressing 'G'.
+A new random maze is displayed in MAZE's Window the moment application starts. A new maze can be also randomly generated at any time by simply pressing 'G'.
 In any maze, a RED - Entrance and GREEN - Exit blocks are randomly placed at the rim of the square maze. Any block of the maze, including RED & GREEN can be changed at will, 
 R -> B or W, 
 G -> B or W, 
