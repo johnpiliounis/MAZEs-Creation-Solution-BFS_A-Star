@@ -1,6 +1,7 @@
 # MAZEs Creation & Solutions with BFS and A* algorithms
 This is a C++ VS-2022 build console app, using SFML 2.6.0 x64, to randomly create and solve mazes using either BFS or A* algorithms.
 
+Animation has been added to the solution part for understanding/looking at how the algorithms behave/work.
 
 The app is based on the SFML library (Safe & Fast Multimedia Library) for creating and managing the maze's terrain window and basics. The maze can be selectably solved either with the BFS algoritm or with the A* algorithm (Alt-S, or Ctrl-S).
 The app's keys' & mouse functionality are displayed in app's console when application starts. Can be re-displayed at any time by jsut pressing 'H'.
@@ -19,11 +20,22 @@ Any block on the maze's terrain can be set as a RED block (Entrance) with a Righ
 Every solution is automatically saved inside the runtime dir, as a ';' delimited csv file named "myMaze_ExportSolution.csv", where from can be loaded again pressing Ctrl-L for inspection and/or maze's modifications. [0 = block, 1 = free-path, S = solution path, R = Entrance, G = Exit].
 Any randomly genarted maze can be also saved by pressing 'S'. It is saved in the runtime dir as "myMaze_Export.csv" file and can be also loaded again by pressing 'L'.
 
+At any time, by pressing 'C' maze is cleaned completely but the rim wall.
+
+At any time by pressing Alt-C only the solution's path is cleaned from maze's window.
+
 By pressing 'Esc' or by clicking on the window's "X" we terminate application.
 
-Importand Notice:
-In Project's properties we need to include in the C++ 'General' tab, in "Additional Include" dir, the "c:\SFML_version\include" dir, and in Linker's Additional Libraries Directory tab the "c:\SFML_version\lib". Also in Linker's Input/Additional Dependencies Libs we need to add the names sfml-graphics.lib;sfml-window.lib;sfml-system.lib, for the release x64 version. Else, the others relevant to your compilation, offered in the lib dir.
+
+Importand Note:
+
+In Project's properties we need to include in the C++ 'General' tab, in "Additional Include" dir, the "c:\SFML_version\include" , and in Linker's Additional Libraries Directory tab the "c:\SFML_version\lib". Also in Linker's Input/Additional Dependencies Libs we need to add the names sfml-graphics.lib;sfml-window.lib;sfml-system.lib, for the release x64 version compilation. Else, others relevant to your compilation, offered/found in the lib dir.
+
 
 Minor pending additions:
-a) Selectable names for saving mazes and solutions,
-b) Not allowing adding a 2nd RED or GREEN block if a pair already exist, altough the solution won't consider those unless the existing block pair is converted to black or white blocks
+
+a) Selectable names for saving mazes and solutions, 
+
+b) Selectable maze's rows/cols size and block size,
+
+c) Not allowing adding a 2nd RED or GREEN block pair, if a pair already exist, before changing that pair into black or white, altough the solution won't consider those.
